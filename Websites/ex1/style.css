@@ -1,27 +1,56 @@
+html{
+    background-color: lightgray;
+}
+
 header{
+    display: flex;
+    display: flex;
     border: 2px solid;
     background:lightblue;
     padding: 5px;
-    border-radius: 20px; 
+    border-radius: 22px;
+    margin: 20px; 
+}
+
+.name-table{
+    display: flex;
+    border: 2px solid;
+    background: lightcoral;
+    border-radius: 22px; 
+    padding: 20px;
+    margin: 20px;
 }
 
 table {
-    border: 2px solid;
-    background: lightcoral;
-    padding: 10px;
-    border-radius: 20px; 
+    border-collapse:collapse;
+    margin-left: auto;
+    margin-right: auto;
+     
+}
+th {
+    background-color: white;
+    padding: 7px;
+    border: 1px solid gray;
+}
+
+td {
+    border: 1px solid white;
 }
 
 .item-selector {
+    display: in;
     border: 2px solid;
     background: lemonchiffon;
     padding: 10px;
-    border-radius: 20px; 
+    border-radius: 22px;
+    margin: 20px; 
 }
 
 footer {
+    display: flex;
     border: 2px solid;
     background: lightseagreen;
     padding: 5px;
-    border-radius: 20px; 
+    border-radius: 22px;
+    margin: 20px; 
 }
