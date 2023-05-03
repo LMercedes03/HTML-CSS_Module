@@ -24,27 +24,26 @@ header{
     margin: 20px;
 }
 
-table {
+table{
     border-collapse:collapse;
     margin-left: auto;
     margin-right: auto;
-    width:12em;
-    height: 12em;
-        
+    width:15rem;
+    height: 12rem;
 }
 
-th {
+th{
     background-color: white;
     border: 1px solid gray;
     text-align: left;
 }
 
-td {
+td{
     border: 1px solid white;
     text-align: left;
 }
 
-.item-selector {
+.item-selector{
     display: in;
     border: 2px solid;
     background: lemonchiffon;
@@ -53,7 +52,7 @@ td {
     margin: 20px; 
 }
 
-footer {
+footer{
     display: flex;
     border: 2px solid;
     background: lightseagreen;
