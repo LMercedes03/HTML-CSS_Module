@@ -34,7 +34,6 @@ table{
 
 th{
     background-color: white;
-    border: 1px solid gray;
     text-align: left;
 }
 
@@ -44,7 +43,6 @@ td{
 }
 
 .item-selector{
-    display: in;
     border: 2px solid;
     background: lemonchiffon;
     padding: 10px;

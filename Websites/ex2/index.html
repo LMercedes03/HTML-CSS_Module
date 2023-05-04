@@ -7,27 +7,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<header>
-    <div id="logo"> 
-        <img class=logo src="../ex2/images/logo.png" align-content="left">
-    </div>
-</header>
-
 <body>
-    <div class="login">
-        <form action="/action_page.php">
-            <label for="fname">Username:</label>
-            <input type="text" id="fname"
-                name="fname"><br><br>
-            <label for="lname">Password:</label>
-            <input type="text" id="lname"
-                name="lname"><br><br>
-            <input type="submit" value="Submit">
-        </form>
-    </div>
+    <header>
+        <img class=logo src="../ex2/images/logo.png" style="width: 120px; height: 120px;" >
+    </header>
+        <div class="login-field" >
+            <form action="/action_page.php">
+                <label>Username:</label>
+                <input type="text"><br>
+                <label>Password:</label>
+                <input type="text"><br><br>
+                <input type="submit" value="Submit" style="background-color:#0072e1; 
+                color: white; border-radius: 5px;">
+            </form>
+        </div>
+    <footer>
+        <p align="center" style="color:white">Copyright 2022</p>
+    </footer>
 </body>
-
-<footer>
-    <p align="center">Copyright 2022</p>
-</footer>
 </html>
