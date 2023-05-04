@@ -29,6 +29,7 @@ table{
 
 td{
 	height: 30px;
+	text-align: left;
 }
 
 #Username {
@@ -47,6 +48,8 @@ td{
 	height: 45px;
 	width:auto;
     font-size:14pt;
+	border-radius: 12px;
+	padding: 10px;
 }
 
 footer{
