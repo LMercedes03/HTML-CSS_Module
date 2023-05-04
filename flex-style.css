@@ -13,7 +13,7 @@
     /* flex-wrap: wrap;    /* WWTD */
     flex-direction: row; /* default is row */
     padding: 0px; /* WWTD */
-    /* height: 500px;  */ /* WWTD */
+    /* height: 500px;  WWTD */
     /* align-items:center; */  /* WWTD */
  }
 
@@ -34,8 +34,8 @@
 .flex-item:nth-child(1) {
     flex-basis: 200px;
     min-width: 200px;
-} 
-*/
+}  */
+
 
 /* .flex-item:nth-child(3) {
     background-color: purple;
